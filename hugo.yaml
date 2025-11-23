@@ -1,8 +1,8 @@
-baseURL: https://hugo-narrow.vercel.app/
-languageCode: en-US
-defaultContentLanguage: en
+baseURL: https://paginasoltas.github.io/
+languageCode: pt-BR
+defaultContentLanguage: pt
 defaultContentLanguageInSubdir: false
-title: Hugo Narrow
+title: Paginas Soltas
 theme: "hugo-narrow"
 
 
@@ -19,22 +19,22 @@ pagination:
   path: "page"
 
 languages:
-  en:
-    languageCode: en-US
-    languageName: "English"
+  pt-br:
+    languageCode: pt-BR
+    languageName: "Português"
     weight: 1
-  zh-cn:
-    languageCode: zh-CN
-    languageName: "简体中文"
-    weight: 2
-  ja:
-    languageCode: ja-JP
-    languageName: "日本語"
-    weight: 3
-  fr:
-    languageCode: fr-FR
-    languageName: "Français"
-    weight: 4
+  #zh-cn:
+  #  languageCode: zh-CN
+  #  languageName: "简体中文"
+  #  weight: 2
+  #ja:
+  #  languageCode: ja-JP
+  #  languageName: "日本語"
+  #  weight: 3
+  #fr:
+  #  languageCode: fr-FR
+  #  languageName: "Français"
+  #  weight: 4
   # de:
   #   languageCode: de-DE
   #   languageName: "Deutsch"
@@ -84,11 +84,11 @@ menus:
       weight: 10
       params:
         icon: about
-    - name: Contact
-      url: https://google.com
-      weight: 20
-      params:
-        icon: contact
+    #- name: Contact
+    #  url: https://google.com
+    #  weight: 20
+    #  params:
+    #    icon: contact
     - name: RSS Feed
       url: /index.xml
       weight: 30
@@ -96,37 +96,37 @@ menus:
         icon: rss
 
   # footer social link
-  social:
-    - name: GitHub
-      url: https://github.com/username
-      weight: 10
-      params:
-        icon: github
-    - name: Twitter
-      url: https://twitter.com/username
-      weight: 20
-      params:
-        icon: twitter
-    - name: LinkedIn
-      url: https://linkedin.com/in/username
-      weight: 30
-      params:
-        icon: linkedin
-    - name: Email
-      url: mailto:your.email@example.com
-      weight: 40
-      params:
-        icon: email
+  #social:
+  #  - name: GitHub
+  #    url: https://github.com/username
+  #    weight: 10
+  #    params:
+  #      icon: github
+  #  - name: Twitter
+  #    url: https://twitter.com/username
+  #    weight: 20
+  #    params:
+  #      icon: twitter
+  #  - name: LinkedIn
+  #    url: https://linkedin.com/in/username
+  #    weight: 30
+  #    params:
+  #      icon: linkedin
+  #  - name: Email
+  #    url: mailto:your.email@example.com
+  #    weight: 40
+  #    params:
+  #      icon: email
 
 params:
   # Basic site info with SEO
-  description: "A modern, clean, and minimal Hugo theme built with Tailwind CSS 4.0. Support custom themes, dark mode, and responsive design."
-  keywords: ["Hugo", "Blog", "Theme", "Technology", "Programming"]
-  defaultAuthor: "Hugo Narrow"
-  language: "en-US"
-  shortName: "Hugo Narrow"  # PWA
-  images:
-  - "/images/og-default.avif"
+  #description: "A modern, clean, and minimal Hugo theme built with Tailwind CSS 4.0. Support custom themes, dark mode, and responsive design."
+  #keywords: ["Hugo", "Blog", "Theme", "Technology", "Programming"]
+  #defaultAuthor: "Hugo Narrow"
+  language: "pt-BR"
+  #shortName: "Hugo Narrow"  # PWA
+  #images:
+  #- "/images/og-default.avif"
 
   logo:
     image: "/images/logo.svg"  # Logo path rel to static folder, leave empty use site title and primary color
@@ -136,25 +136,25 @@ params:
 
 
   author:
-    name: "Hugo Narrow"
-    title: "A Clean and Minimal Hugo Theme"
-    description: "Focused on content and user experience."
+    name: "Paginas Soltas"
+    title: "Meu Blog!!!!11!!"
+    description: "Livros ebaaa!!!!!"
     avatar: "/images/avatar.svg"
-    social:
-      - name: "GitHub"
-        url: "https://github.com/username"
-        icon: "github"
-      - name: "Twitter"
-        url: "https://twitter.com/username"
-        icon: "twitter"
-      - name: "Email"
-        url: "mailto:hello@example.com"
-        icon: "email"
+    #social:
+    #  - name: "GitHub"
+    #    url: "https://github.com/username"
+    #    icon: "github"
+    #  - name: "Twitter"
+    #    url: "https://twitter.com/username"
+    #    icon: "twitter"
+    #  - name: "Email"
+    #    url: "mailto:hello@example.com"
+    #    icon: "email"
 
   # UI Components Control
   showThemeSwitch: true      # Set to false to hide theme style switcher (palette icon)
   showDarkModeSwitch: true   # Set to false to hide dark mode switcher (sun/moon icon)
-  showLanguageSwitch: true   # Set to false to hide language switcher
+  showLanguageSwitch: false   # Set to false to hide language switcher
   languageSwitchMode: "dropdown"  # Language switch mode: "dropdown" (show panel) or "cycle" (direct cycle)
 
   # Header sticky effect
@@ -201,13 +201,12 @@ params:
       name: "Twitter"
       order: 11
 
-
   home:
     recentPostsCount: 5 # Number of recent posts to show on the home page
 
   # custom partials files should be placed at "~/layouts/_partials/content/" folder.
   home_custom:
-    enabled: true
+    enabled: false
     files:
       - custom_1.html
       # - custom_2.html
@@ -218,7 +217,7 @@ params:
   
     license:
       show: true
-      author: "Hugo Narrow"
+      author: "Paginas Soltas"
       name: "CC BY-NC-SA 4.0"
       description: "This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Please attribute the source, use non-commercially, and maintain the same license."
       url: "https://creativecommons.org/licenses/by-nc-sa/4.0/"

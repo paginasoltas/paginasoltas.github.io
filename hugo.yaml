@@ -1,6 +1,6 @@
 baseURL: https://paginasoltas.github.io/
 languageCode: pt-BR
-defaultContentLanguage: pt
+defaultContentLanguage: pt-br
 defaultContentLanguageInSubdir: false
 title: Paginas Soltas
 theme: "hugo-narrow"

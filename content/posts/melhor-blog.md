@@ -7,6 +7,6 @@ categories = ['Verdades Absolutas']
 
 ## Melhor blog:
 
-[maripasa](maripasa.github.io)
+[maripasa](https://maripasa.github.io)
 
 Vejam que posts legais

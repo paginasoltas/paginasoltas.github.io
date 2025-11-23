@@ -1,6 +1,6 @@
 baseURL: https://paginasoltas.github.io/
 languageCode: pt-BR
-defaultContentLanguage: pt-br
+defaultContentLanguage: pt
 defaultContentLanguageInSubdir: false
 title: Paginas Soltas
 theme: "hugo-narrow"
@@ -19,7 +19,7 @@ pagination:
   path: "page"
 
 languages:
-  pt-br:
+  pt:
     languageCode: pt-BR
     languageName: "Português"
     weight: 1
@@ -240,7 +240,7 @@ params:
       emitMetadata: "0"
       inputPosition: "bottom"
       theme: "preferred_color_scheme"
-      lang: "en"
+      lang: "pt-br"
 
     disqus:
       shortname: ""
@@ -255,13 +255,13 @@ params:
 
     waline:
       serverURL: ""
-      lang: "zh-CN"
+      lang: "pt-BR"
 
 
     artalk:
       server: ""
       site: ""
-      locale: "zh-CN" # String|Object|"auto"
+      locale: "pt-BR" # String|Object|"auto"
       darkMode: "auto"
       gravatar:
         mirror: "https://cravatar.cn/avatar/"
@@ -271,7 +271,7 @@ params:
       envId: ""
       region: "ap-shanghai"
       path: ""
-      lang: "zh-CN"
+      lang: "pt-BR"
 
 
   analytics:

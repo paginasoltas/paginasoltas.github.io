@@ -11,14 +11,10 @@
             "id": "724909d5db304b8f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "posts/markdown-test.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "markdown-test"
+              "title": "Nova aba"
             }
           }
         ]
@@ -185,6 +181,9 @@
   },
   "active": "724909d5db304b8f",
   "lastOpenFiles": [
+    "_index.md",
+    "posts/markdown-test.md",
+    "archives/_index.md",
     "posts/katex-mermaid-test.md",
     "posts/katex-mermaid-test.fr.md"
   ]

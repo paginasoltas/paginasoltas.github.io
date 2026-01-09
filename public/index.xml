@@ -22,5 +22,12 @@
       <guid>http://localhost:1313/posts/p%C3%A1ginas-em-branco/</guid>
       <description>&lt;h5 id=&#34;oii&#34;&gt;&lt;em&gt;&lt;strong&gt;Oii&lt;/strong&gt;&lt;/em&gt;&lt;/h5&gt;&#xA;&lt;p&gt;Bem vindos às minhas novas páginas.&lt;/p&gt;&#xA;&lt;p&gt;Nem todos os capítulos farão sentido. Nem todos os posts são pra quem os lê — &lt;em&gt;se é que algum de fato seja&amp;hellip;&lt;/em&gt; —. A maioria pode parecer desconexo, garranchado, escrito como quem viu um papel e só começou a escrever. Palavras bonitas as vezes faltem e em meio a poética que eu finjo ser meus escritos, você só se depare com mais um &amp;ldquo;mas eu nem sei.&amp;rdquo;&lt;/p&gt;</description>
     </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/informa%C3%A7%C3%B5es-importantes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/informa%C3%A7%C3%B5es-importantes/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.markdownguide.org/basic-syntax/&#34;target=&#34;_blank&#34;&#xA;  class=&#34;inline-flex items-center gap-1&#34;&#xA;&gt;https://www.markdownguide.org/basic-syntax/&#xA;  &lt;svg id=&#34;external-link&#34; class=&#34;h-3 w-3 flex-shrink-0&#34;&#xA;    fill=&#34;none&#34;&#xA;    stroke=&#34;currentColor&#34;&#xA;    viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;/svg&gt;&#xA;&lt;/a&gt;&#xA;&lt;a href=&#34;https://www.markdownguide.org/basic-syntax/&#34;target=&#34;_blank&#34;&#xA;  class=&#34;inline-flex items-center gap-1&#34;&#xA;&gt;https://www.markdownguide.org/basic-syntax/&#xA;  &lt;svg id=&#34;external-link&#34; class=&#34;h-3 w-3 flex-shrink-0&#34;&#xA;    fill=&#34;none&#34;&#xA;    stroke=&#34;currentColor&#34;&#xA;    viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;/svg&gt;&#xA;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

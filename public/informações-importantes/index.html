@@ -2,8 +2,7 @@
 <html
   lang="pt-BR"
   data-theme="abyss">
-  <head>
-	<meta name="generator" content="Hugo 0.152.2"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8" />
 <meta
   name="viewport"
@@ -12,13 +11,13 @@
 
 <title>Paginas Soltas</title>
 
-<meta name="description" content="Paginas Soltas - Paginas Soltas" />
+<meta name="description" content="https://www.markdownguide.org/basic-syntax/ https://www.markdownguide.org/basic-syntax/ " />
 <meta name="keywords" content="" />
 <meta name="author" content="" />
 <meta name="language" content="pt-BR" />
 
 <meta name="robots" content="index, follow" />
-<link rel="canonical" href="http://localhost:1313/" />
+<link rel="canonical" href="http://localhost:1313/informa%C3%A7%C3%B5es-importantes/" />
 
 
 
@@ -27,28 +26,24 @@
 
 
 <link rel="manifest" href="/site.webmanifest" />
-<meta property="og:url" content="http://localhost:1313/">
+<meta property="og:url" content="http://localhost:1313/informa%C3%A7%C3%B5es-importantes/">
   <meta property="og:site_name" content="Paginas Soltas">
   <meta property="og:title" content="Paginas Soltas">
+  <meta property="og:description" content="https://www.markdownguide.org/basic-syntax/ https://www.markdownguide.org/basic-syntax/">
   <meta property="og:locale" content="pt_BR">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
 
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Paginas Soltas">
+  <meta name="twitter:description" content="https://www.markdownguide.org/basic-syntax/ https://www.markdownguide.org/basic-syntax/">
 
 
   <meta itemprop="name" content="Paginas Soltas">
-  <meta itemprop="datePublished" content="2026-01-09T16:08:56-03:00">
-  <meta itemprop="dateModified" content="2026-01-09T16:08:56-03:00">
+  <meta itemprop="description" content="https://www.markdownguide.org/basic-syntax/ https://www.markdownguide.org/basic-syntax/">
+  <meta itemprop="wordCount" content="2">
 
 
-
-  <link
-    rel="alternate"
-    type="application/rss+xml"
-    title="Paginas Soltas"
-    href="http://localhost:1313/index.xml" />
 
 
 
@@ -201,9 +196,11 @@
 
 
 
+  <script src="/js/gumshoe.polyfills.min.js"></script>
 
 
 
+        <script src="/js/toc.js" defer></script>
 
 
 
@@ -222,6 +219,8 @@
 
 
 
+
+  
 
 
 
@@ -268,6 +267,112 @@
   <body class="bg-background text-foreground min-h-screen antialiased">
     
     
+  <div
+    id="reading-progress-container"
+    class="reading-progress-container pointer-events-none fixed top-0 right-0 left-0 z-50 transition-opacity duration-300 ease-out"
+    data-height="3"
+    data-smooth-scroll="true"
+    data-hide-on-complete="false">
+    
+    <div class="reading-progress-bg w-full"></div>
+
+    
+    <div
+      id="reading-progress-bar"
+      class="from-primary to-primary/80 reading-progress-bar 
+        transition-all duration-150 ease-out
+       absolute top-0 left-0 w-0 bg-gradient-to-r"></div>
+  </div>
+
+  <script>
+    (function () {
+      "use strict";
+
+      const progressContainer = document.getElementById(
+        "reading-progress-container",
+      );
+      const progressBar = document.getElementById("reading-progress-bar");
+
+      if (!progressContainer || !progressBar) return;
+
+      
+      const config = {
+        smoothScroll: progressContainer.dataset.smoothScroll === "true",
+        hideOnComplete: progressContainer.dataset.hideOnComplete === "true",
+      };
+
+      let isVisible = true;
+      let gumshoeInstance = null;
+
+      
+      function calculateProgress() {
+        const scrollTop =
+          window.pageYOffset || document.documentElement.scrollTop;
+        const documentHeight = document.documentElement.scrollHeight;
+        const windowHeight = window.innerHeight;
+        const scrollableHeight = documentHeight - windowHeight;
+
+        if (scrollableHeight <= 0) return 0;
+
+        return Math.min(Math.max((scrollTop / scrollableHeight) * 100, 0), 100);
+      }
+
+      
+      function updateProgress() {
+        const progress = calculateProgress();
+        progressBar.style.width = progress + "%";
+
+        
+        if (config.hideOnComplete && progress >= 99.5) {
+          if (isVisible) {
+            progressContainer.style.opacity = "0";
+            isVisible = false;
+          }
+        } else if (!isVisible) {
+          progressContainer.style.opacity = "1";
+          isVisible = true;
+        }
+      }
+
+      
+      let ticking = false;
+      function requestTick() {
+        if (!ticking) {
+          requestAnimationFrame(() => {
+            updateProgress();
+            ticking = false;
+          });
+          ticking = true;
+        }
+      }
+
+      
+      function init() {
+        
+        window.addEventListener("scroll", requestTick, { passive: true });
+        window.addEventListener("resize", requestTick, { passive: true });
+        document.addEventListener("visibilitychange", () => {
+          if (!document.hidden) requestTick();
+        });
+
+        
+        requestTick();
+
+        
+        window.addEventListener("beforeunload", () => {
+          window.removeEventListener("scroll", requestTick);
+          window.removeEventListener("resize", requestTick);
+        });
+      }
+
+      
+      if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", init);
+      } else {
+        init();
+      }
+    })();
+  </script>
 
     <header class="sticky top-0 z-50 mx-auto max-w-4xl px-4 py-6">
   <div
@@ -777,383 +882,93 @@
 
     <main class="mx-auto max-w-4xl px-4 py-6">
       
-  <div class="mx-auto max-w-4xl">
-    
-    
-    
-    
-    
-      <section class="author-section mb-12">
-        <div class="bg-card border-border rounded-xl border p-8 shadow-sm">
-          <div
-            class="flex flex-col items-center gap-6 text-center md:flex-row md:items-start md:text-left">
-            
-            <div class="flex-shrink-0">
-              
-                <img
-                  src="/images/avatar.svg"
-                  alt="Páginas Soltas"
-                  class="border-primary/20 h-24 w-24 rounded-full border-4 object-cover shadow-lg" />
-              
-            </div>
-
-            
-            <div class="min-w-0 flex-1">
-              <h1 class="text-foreground mb-2 text-3xl font-bold">
-                Páginas Soltas
-              </h1>
-
-              
-                <p class="text-muted-foreground mb-3 text-lg">
-                  Sobre sentimentos que guiam palavras e palavras que — por vezes — viram poesia.
-                </p>
-              
-
-              
-                <p class="text-foreground mb-4 leading-relaxed">
-                  Sinta-se a vontade, escolha uma corzinha bonita e aproveite a leitura! — Ory
-                </p>
-              
-
-              
-              
-            </div>
-          </div>
-        </div>
-      </section>
-    
-
-    
-    
-
-
-    
-    
-    
-
-    
-
-
-
-
-
-
-
-
-  <section class="post-list">
-    
-    
-      <div class="mb-6 flex items-center justify-between">
-        <h2 class="text-foreground text-2xl font-bold">Artigos Recentes</h2>
-      </div>
-    
-
-
-    
-    <div class="space-y-4">
-      
-        
-
-
-
-
-<article class="group">
-  <a href="/posts/linhas-la%C3%A7os-e-n%C3%B3s/" class="block">
-    <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
-      
-      <div class="block md:hidden">
-        <div class="aspect-[2/1] overflow-hidden">
-    
-    <div class="from-blue-500/20 to-purple-500/10 relative aspect-[2/1] overflow-hidden bg-gradient-to-br" style="background-blend-mode: overlay; background-color: color-mix(in srgb, var(--color-primary) 15%, transparent);">
-      
-      <div class="absolute inset-0">
-        
-          
-          
-          <div class="absolute left-[20%] top-[20%] h-6 w-6 rounded-full border-2 border-white/80 bg-white/15"></div>
-          
-          <div class="absolute right-[25%] top-[25%] h-5 w-5 rounded-full border border-white/70 bg-white/12"></div>
-          
-          <div class="absolute left-[30%] bottom-[30%] h-4 w-4 rounded-full border border-white/60 bg-white/10"></div>
-          
-          <div class="absolute right-[20%] bottom-[20%] h-5 w-5 rounded-full border border-white/65 bg-white/13"></div>
-          
-          <div class="absolute left-[45%] top-[45%] h-3 w-3 rounded-full border border-white/50 bg-white/8"></div>
-          
-          <div class="absolute right-[35%] top-[35%] h-2 w-2 rounded-full bg-white/50"></div>
-          <div class="absolute left-[40%] bottom-[35%] h-1.5 w-1.5 rounded-full bg-white/45"></div>
-          <div class="absolute left-[35%] top-[50%] h-1 w-1 rounded-full bg-white/40"></div>
-          <div class="absolute right-[40%] bottom-[50%] h-1 w-1 rounded-full bg-white/35"></div>
-          <div class="absolute left-[50%] top-[30%] h-1 w-1 rounded-full bg-white/30"></div>
-          <div class="absolute right-[50%] bottom-[30%] h-1 w-1 rounded-full bg-white/25"></div>
-          
-          <div class="absolute top-[40%] left-[15%] h-0.5 w-6 rotate-30 bg-white/25"></div>
-          <div class="absolute bottom-[40%] right-[15%] h-0.5 w-4 -rotate-30 bg-white/20"></div>
-        
-      </div>
-    </div>
   
-</div>
-      </div>
-
-      
-      <div class="absolute top-0 right-0 hidden h-full w-80 transition-opacity duration-300 group-hover:opacity-90 md:block">
-        <div class="h-full w-full">
+  <nav
+  class="breadcrumb mb-4 md:mb-6 py-1"
+  aria-label="Navegação">
+  <ol class="text-muted-foreground flex items-center space-x-1 md:space-x-2 text-sm overflow-x-auto whitespace-nowrap scrollbar-hide py-1">
     
-    <div class="from-blue-500/20 to-purple-500/10 relative h-full w-full overflow-hidden bg-gradient-to-br" style="background-blend-mode: overlay; background-color: color-mix(in srgb, var(--color-primary) 15%, transparent);">
-      
-      <div class="absolute inset-0">
+    <li class="flex-shrink-0">
+      <a
+        href="/"
+        class="text-muted-foreground hover:text-primary hover:bg-primary/10 flex items-center gap-0.5 md:gap-1 rounded-lg px-1 md:px-3 py-0.5 md:py-1.5 transition-all duration-200 ease-out hover:-translate-y-0.5 hover:scale-[1.02]">
         
-          
-          
-          <div class="absolute left-[20%] top-[20%] h-6 w-6 rounded-full border-2 border-white/80 bg-white/15"></div>
-          
-          <div class="absolute right-[25%] top-[25%] h-5 w-5 rounded-full border border-white/70 bg-white/12"></div>
-          
-          <div class="absolute left-[30%] bottom-[30%] h-4 w-4 rounded-full border border-white/60 bg-white/10"></div>
-          
-          <div class="absolute right-[20%] bottom-[20%] h-5 w-5 rounded-full border border-white/65 bg-white/13"></div>
-          
-          <div class="absolute left-[45%] top-[45%] h-3 w-3 rounded-full border border-white/50 bg-white/8"></div>
-          
-          <div class="absolute right-[35%] top-[35%] h-2 w-2 rounded-full bg-white/50"></div>
-          <div class="absolute left-[40%] bottom-[35%] h-1.5 w-1.5 rounded-full bg-white/45"></div>
-          <div class="absolute left-[35%] top-[50%] h-1 w-1 rounded-full bg-white/40"></div>
-          <div class="absolute right-[40%] bottom-[50%] h-1 w-1 rounded-full bg-white/35"></div>
-          <div class="absolute left-[50%] top-[30%] h-1 w-1 rounded-full bg-white/30"></div>
-          <div class="absolute right-[50%] bottom-[30%] h-1 w-1 rounded-full bg-white/25"></div>
-          
-          <div class="absolute top-[40%] left-[15%] h-0.5 w-6 rotate-30 bg-white/25"></div>
-          <div class="absolute bottom-[40%] right-[15%] h-0.5 w-4 -rotate-30 bg-white/20"></div>
-        
-      </div>
-    </div>
-  
-</div>
-      </div>
-
-      
-      <div class="absolute top-0 right-0 hidden h-full w-80 opacity-0 transition-opacity duration-300 group-hover:opacity-100 md:block bg-gradient-to-l from-primary/5"></div>
-
-      
-      <div class="relative z-10 flex flex-1 flex-col p-6 md:pr-[21rem]">
-        
-        <h3 class="text-foreground group-hover:text-primary mb-4 text-lg font-semibold leading-tight transition-colors duration-200">
-          Linhas, Laços e Nós
-        </h3>
-
-        
-        
-          <p class="text-muted-foreground mb-4 text-sm leading-relaxed">
-            Linhas O primeiro fio vermelho que eu descobri foi o que se enrolava ao meu nome. O fio de Ariadne. Uma princesa que de tanto amar e de …
-          </p>
-        
-
-        
-        <div class="mt-auto text-sm text-muted-foreground">
-          
-          <div class="flex items-center gap-3">
-            <div class="flex items-center gap-1.5">
-              
   <svg class="h-4 w-4"
     fill="none"
     stroke="currentColor"
-    viewBox="0 0 24 24" aria-label="Publicado em"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+    viewBox="0 0 24 24" aria-label="Início">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m3 12 2-2m0 0 7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+
 </svg>
-              <time datetime="2026-01-09" class="font-medium">
-                09 de janeiro de 2026
-              </time>
-            </div>
-            
-              <div class="flex items-center gap-1.5">
-                
-  <svg class="h-4 w-4"
-    fill="none"
-    stroke="currentColor"
-    viewBox="0 0 24 24" aria-label="Tempo de leitura"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-</svg>
-                <span class="font-medium">5 minuto</span>
-              </div>
-            
-          </div>
-
-          
-          
-        </div>
-      </div>
-    </div>
-  </a>
-</article>
-      
-        
-
-
-
-
-<article class="group">
-  <a href="/posts/p%C3%A1ginas-em-branco/" class="block">
-    <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
-      
-      <div class="block md:hidden">
-        <div class="aspect-[2/1] overflow-hidden">
-    
-    <div class="from-blue-500/20 to-purple-500/10 relative aspect-[2/1] overflow-hidden bg-gradient-to-br" style="background-blend-mode: overlay; background-color: color-mix(in srgb, var(--color-primary) 15%, transparent);">
-      
-      <div class="absolute inset-0">
-        
-          
-          
-          <div class="absolute left-[20%] top-[20%] h-6 w-6 rounded-full border-2 border-white/80 bg-white/15"></div>
-          
-          <div class="absolute right-[25%] top-[25%] h-5 w-5 rounded-full border border-white/70 bg-white/12"></div>
-          
-          <div class="absolute left-[30%] bottom-[30%] h-4 w-4 rounded-full border border-white/60 bg-white/10"></div>
-          
-          <div class="absolute right-[20%] bottom-[20%] h-5 w-5 rounded-full border border-white/65 bg-white/13"></div>
-          
-          <div class="absolute left-[45%] top-[45%] h-3 w-3 rounded-full border border-white/50 bg-white/8"></div>
-          
-          <div class="absolute right-[35%] top-[35%] h-2 w-2 rounded-full bg-white/50"></div>
-          <div class="absolute left-[40%] bottom-[35%] h-1.5 w-1.5 rounded-full bg-white/45"></div>
-          <div class="absolute left-[35%] top-[50%] h-1 w-1 rounded-full bg-white/40"></div>
-          <div class="absolute right-[40%] bottom-[50%] h-1 w-1 rounded-full bg-white/35"></div>
-          <div class="absolute left-[50%] top-[30%] h-1 w-1 rounded-full bg-white/30"></div>
-          <div class="absolute right-[50%] bottom-[30%] h-1 w-1 rounded-full bg-white/25"></div>
-          
-          <div class="absolute top-[40%] left-[15%] h-0.5 w-6 rotate-30 bg-white/25"></div>
-          <div class="absolute bottom-[40%] right-[15%] h-0.5 w-4 -rotate-30 bg-white/20"></div>
-        
-      </div>
-    </div>
-  
-</div>
-      </div>
-
-      
-      <div class="absolute top-0 right-0 hidden h-full w-80 transition-opacity duration-300 group-hover:opacity-90 md:block">
-        <div class="h-full w-full">
-    
-    <div class="from-blue-500/20 to-purple-500/10 relative h-full w-full overflow-hidden bg-gradient-to-br" style="background-blend-mode: overlay; background-color: color-mix(in srgb, var(--color-primary) 15%, transparent);">
-      
-      <div class="absolute inset-0">
-        
-          
-          
-          <div class="absolute left-[20%] top-[20%] h-6 w-6 rounded-full border-2 border-white/80 bg-white/15"></div>
-          
-          <div class="absolute right-[25%] top-[25%] h-5 w-5 rounded-full border border-white/70 bg-white/12"></div>
-          
-          <div class="absolute left-[30%] bottom-[30%] h-4 w-4 rounded-full border border-white/60 bg-white/10"></div>
-          
-          <div class="absolute right-[20%] bottom-[20%] h-5 w-5 rounded-full border border-white/65 bg-white/13"></div>
-          
-          <div class="absolute left-[45%] top-[45%] h-3 w-3 rounded-full border border-white/50 bg-white/8"></div>
-          
-          <div class="absolute right-[35%] top-[35%] h-2 w-2 rounded-full bg-white/50"></div>
-          <div class="absolute left-[40%] bottom-[35%] h-1.5 w-1.5 rounded-full bg-white/45"></div>
-          <div class="absolute left-[35%] top-[50%] h-1 w-1 rounded-full bg-white/40"></div>
-          <div class="absolute right-[40%] bottom-[50%] h-1 w-1 rounded-full bg-white/35"></div>
-          <div class="absolute left-[50%] top-[30%] h-1 w-1 rounded-full bg-white/30"></div>
-          <div class="absolute right-[50%] bottom-[30%] h-1 w-1 rounded-full bg-white/25"></div>
-          
-          <div class="absolute top-[40%] left-[15%] h-0.5 w-6 rotate-30 bg-white/25"></div>
-          <div class="absolute bottom-[40%] right-[15%] h-0.5 w-4 -rotate-30 bg-white/20"></div>
-        
-      </div>
-    </div>
-  
-</div>
-      </div>
-
-      
-      <div class="absolute top-0 right-0 hidden h-full w-80 opacity-0 transition-opacity duration-300 group-hover:opacity-100 md:block bg-gradient-to-l from-primary/5"></div>
-
-      
-      <div class="relative z-10 flex flex-1 flex-col p-6 md:pr-[21rem]">
-        
-        <h3 class="text-foreground group-hover:text-primary mb-4 text-lg font-semibold leading-tight transition-colors duration-200">
-          Páginas Em Branco
-        </h3>
-
-        
-        
-          <p class="text-muted-foreground mb-4 text-sm leading-relaxed">
-            Oii Bem vindos às minhas novas páginas.
-Nem todos os capítulos farão sentido. Nem todos os posts são pra quem os lê — se é que algum de fato …
-          </p>
-        
-
-        
-        <div class="mt-auto text-sm text-muted-foreground">
-          
-          <div class="flex items-center gap-3">
-            <div class="flex items-center gap-1.5">
-              
-  <svg class="h-4 w-4"
-    fill="none"
-    stroke="currentColor"
-    viewBox="0 0 24 24" aria-label="Publicado em"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-</svg>
-              <time datetime="2026-01-09" class="font-medium">
-                09 de janeiro de 2026
-              </time>
-            </div>
-            
-              <div class="flex items-center gap-1.5">
-                
-  <svg class="h-4 w-4"
-    fill="none"
-    stroke="currentColor"
-    viewBox="0 0 24 24" aria-label="Tempo de leitura"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-</svg>
-                <span class="font-medium">1 minuto</span>
-              </div>
-            
-          </div>
-
-          
-          
-        </div>
-      </div>
-    </div>
-  </a>
-</article>
-      
-    </div>
+        <span class="max-w-[4rem] md:max-w-none truncate">Início</span>
+      </a>
+    </li>
 
     
     
-      <div class="mt-8 text-center">
-        <a
-          href="/posts/"
-          class="bg-primary text-primary-foreground hover:bg-primary/90 focus:ring-primary/20 inline-flex items-center gap-2 rounded-xl px-6 py-3 font-medium shadow-sm transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-105 hover:shadow-lg focus:ring-2 focus:outline-none active:scale-95">
-          
-  <svg class="h-5 w-5"
-    fill="none"
-    stroke="currentColor"
-    viewBox="0 0 24 24" aria-label="Artigos">
-  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
-
-</svg>
-          <span>Ver todos os artigos</span>
-          
+      <li class="flex items-center gap-1 md:gap-2 min-w-0">
+        <span class="text-muted-foreground/50 flex-shrink-0"
+          >
   <svg class="h-4 w-4"
     fill="none"
     stroke="currentColor"
     viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
 </svg>
-        </a>
-      </div>
+        </span>
+
+        
+          
+          <div class="flex items-center gap-1 md:gap-2 min-w-0">
+            
+            
+            <span class="text-foreground flex items-center gap-0.5 md:gap-1 font-medium min-w-0">
+              
+  <svg class="h-4 w-4"
+    fill="none"
+    stroke="currentColor"
+    viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+</svg>
+              <span class="max-w-[8rem] md:max-w-[16rem] lg:max-w-none truncate"></span>
+            </span>
+          </div>
+        
+      </li>
     
 
-  </section>
+  </ol>
+</nav>
 
 
 
+  
+  <header class="mb-8">
+    <h1 class="text-foreground mb-4 text-3xl font-bold md:text-4xl">
+      
+    </h1>
     
-    
+  </header>
 
-  </div>
+  
+  <article class="prose prose-neutral dark:prose-invert max-w-none">
+    <p><a href="https://www.markdownguide.org/basic-syntax/"target="_blank"
+  class="inline-flex items-center gap-1"
+>https://www.markdownguide.org/basic-syntax/
+  <svg id="external-link" class="h-3 w-3 flex-shrink-0"
+    fill="none"
+    stroke="currentColor"
+    viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+</a>
+<a href="https://www.markdownguide.org/basic-syntax/"target="_blank"
+  class="inline-flex items-center gap-1"
+>https://www.markdownguide.org/basic-syntax/
+  <svg id="external-link" class="h-3 w-3 flex-shrink-0"
+    fill="none"
+    stroke="currentColor"
+    viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+</a></p>
+
+  </article>
+  
 
     </main>
 
@@ -1278,9 +1093,57 @@ Nem todos os capítulos farão sentido. Nem todos os posts são pra quem os lê 
     class="border-border bg-card/80 scrollbar-hide xs:px-3 xs:py-2 mx-auto flex max-w-[calc(100vw-2rem)] min-w-fit items-center justify-center overflow-x-auto rounded-2xl border px-4 py-3 shadow-lg backdrop-blur-sm sm:px-4 sm:py-3">
     
     
+      <button
+        id="dock-back"
+        class="text-muted-foreground hover:text-primary hover:bg-primary/10 focus:ring-primary/20 xs:px-2 xs:py-1.5 flex flex-shrink-0 items-center gap-2 rounded-lg px-3 py-2 text-sm font-medium transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none sm:px-3 sm:py-2"
+        title="Voltar"
+        aria-label="Voltar">
+        
+  <svg class="h-4 w-4"
+    fill="none"
+    stroke="currentColor"
+    viewBox="0 0 24 24">
+  <path d="m12 19-7-7 7-7"/>
+  <path d="M19 12H5"/>
+
+</svg>
+        <span class="hidden sm:inline"
+          >Voltar</span
+        >
+      </button>
+
+      
+      <div class="bg-border xs:mx-1 mx-2 h-6 w-px sm:mx-2"></div>
+    
 
 
     
+    
+      <button
+        id="dock-toc"
+        class="text-muted-foreground hover:text-primary hover:bg-primary/10 focus:ring-primary/20 xs:px-2 xs:py-1.5 flex flex-shrink-0 items-center gap-2 rounded-lg px-3 py-2 text-sm font-medium transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none sm:px-3 sm:py-2"
+        title="Índice"
+        aria-label="Índice">
+        
+  <svg class="h-4 w-4"
+    fill="none"
+    stroke="currentColor"
+    viewBox="0 0 24 24">
+  <line x1="8" x2="21" y1="6" y2="6"/>
+  <line x1="8" x2="21" y1="12" y2="12"/>
+  <line x1="8" x2="21" y1="18" y2="18"/>
+  <line x1="3" x2="3.01" y1="6" y2="6"/>
+  <line x1="3" x2="3.01" y1="12" y2="12"/>
+  <line x1="3" x2="3.01" y1="18" y2="18"/>
+
+</svg>
+        <span class="hidden sm:inline"
+          >Índice</span
+        >
+      </button>
+
+      
+      <div class="bg-border xs:mx-1 mx-2 h-6 w-px sm:mx-2"></div>
     
 
 
@@ -1354,6 +1217,87 @@ Nem todos os capítulos farão sentido. Nem todos os posts são pra quem os lê 
 
 
     
+      
+
+
+
+<div
+  id="toc-overlay"
+  class="pointer-events-none fixed inset-0 z-40 bg-black/50 opacity-0 backdrop-blur-sm transition-all duration-300"
+  role="dialog"
+  aria-modal="true"
+  aria-labelledby="toc-title"></div>
+
+
+<div
+  id="toc-card"
+  class="pointer-events-none fixed inset-4 z-50 flex w-auto scale-95 items-center justify-center opacity-0 transition-all duration-300 sm:inset-auto sm:top-1/2 sm:left-1/2 sm:block sm:w-full sm:max-w-md sm:-translate-x-1/2 sm:-translate-y-1/2"
+  role="dialog"
+  aria-modal="true"
+  aria-labelledby="toc-title">
+  <div
+    class="bg-card border-border w-full max-w-sm overflow-hidden rounded-xl border shadow-xl sm:max-w-md">
+    
+    <div
+      class="border-border bg-muted/30 flex items-center justify-between border-b p-4">
+      <div class="flex items-center gap-3">
+        
+  <svg class="h-5 w-5"
+    fill="none"
+    stroke="currentColor"
+    viewBox="0 0 24 24">
+  <line x1="8" x2="21" y1="6" y2="6"/>
+  <line x1="8" x2="21" y1="12" y2="12"/>
+  <line x1="8" x2="21" y1="18" y2="18"/>
+  <line x1="3" x2="3.01" y1="6" y2="6"/>
+  <line x1="3" x2="3.01" y1="12" y2="12"/>
+  <line x1="3" x2="3.01" y1="18" y2="18"/>
+
+</svg>
+        <h2 id="toc-title" class="text-foreground text-lg font-semibold">
+          Índice
+        </h2>
+      </div>
+
+      
+      <button
+        id="toc-close"
+        class="text-muted-foreground hover:text-primary hover:bg-primary/10 focus:ring-primary/20 rounded-lg p-2 transition-all duration-200 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+        title="关闭"
+        aria-label="关闭目录">
+        
+  <svg class="h-4 w-4"
+    fill="none"
+    stroke="currentColor"
+    viewBox="0 0 24 24">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+
+</svg>
+      </button>
+    </div>
+
+    
+    <div class="max-h-96 overflow-y-auto p-4">
+      <nav
+        id="toc-nav"
+        class="toc-scrollbar"
+        aria-label="Navegação no índice">
+          
+          <div id="toc-content">
+            <nav id="TableOfContents"></nav>
+          </div>
+      </nav>
+    </div>
+
+    
+    <div class="border-border bg-muted/20 border-t px-4 py-3">
+      <div class="text-muted-foreground text-center text-xs">
+        <span>Clique para pular para a seção</span>
+      </div>
+    </div>
+  </div>
+</div>
+
     
 
 

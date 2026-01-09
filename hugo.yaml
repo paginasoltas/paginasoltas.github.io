@@ -136,9 +136,9 @@ params:
 
 
   author:
-    name: "Paginas Soltas"
-    title: "Meu Blog!!!!11!!"
-    description: "Livros ebaaa!!!!!"
+    name: "Páginas Soltas"
+    title: "Sobre sentimentos que guiam palavras e palavras que — por vezes — viram poesia. 
+    description: "Sinta-se a vontade, escolha uma corzinha bonita e aproveite a leitura! — Ory"
     avatar: "/images/avatar.svg"
     #social:
     #  - name: "GitHub"
@@ -165,7 +165,7 @@ params:
   dock: "float"
 
   # default color scheme
-  colorScheme: "default"
+  colorScheme: "abyss"
   themes:
     default:
       name: "Default"

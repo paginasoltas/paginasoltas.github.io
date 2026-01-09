@@ -6,14 +6,21 @@
     <description>Recent content in Posts on Paginas Soltas</description>
     <generator>Hugo</generator>
     <language>pt-BR</language>
-    <lastBuildDate>Fri, 09 Jan 2026 15:56:58 -0300</lastBuildDate>
+    <lastBuildDate>Fri, 09 Jan 2026 16:08:56 -0300</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linhas, Laços e Nós</title>
+      <link>http://localhost:1313/posts/linhas-la%C3%A7os-e-n%C3%B3s/</link>
+      <pubDate>Fri, 09 Jan 2026 16:08:56 -0300</pubDate>
+      <guid>http://localhost:1313/posts/linhas-la%C3%A7os-e-n%C3%B3s/</guid>
+      <description>&lt;h3 id=&#34;linhas&#34;&gt;*Linhas &lt;/h3&gt;&#xA;&lt;p&gt;O primeiro fio vermelho que eu descobri foi o que se enrolava ao meu nome. O fio de Ariadne. &lt;/p&gt;&#xA;&lt;p&gt;Uma princesa que de tanto amar e de tanto medo de perder seu amor, entregou um fio vermelho para que seu amado pudesse encontrar o caminho de voltar pra casa, de volta pra ela. Por muito tempo não reparei, mas acho que afinal, temos mais que só o nome em comum: Compartilhamos o medo do abandono. O medo de deixar ir.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Páginas Em Branco</title>
       <link>http://localhost:1313/posts/p%C3%A1ginas-em-branco/</link>
       <pubDate>Fri, 09 Jan 2026 15:56:58 -0300</pubDate>
       <guid>http://localhost:1313/posts/p%C3%A1ginas-em-branco/</guid>
-      <description></description>
+      <description>&lt;h5 id=&#34;oii&#34;&gt;&lt;em&gt;&lt;strong&gt;Oii&lt;/strong&gt;&lt;/em&gt;&lt;/h5&gt;&#xA;&lt;p&gt;Bem vindos às minhas novas páginas.&lt;/p&gt;&#xA;&lt;p&gt;Nem todos os capítulos farão sentido. Nem todos os posts são pra quem os lê — &lt;em&gt;se é que algum de fato seja&amp;hellip;&lt;/em&gt; —. A maioria pode parecer desconexo, garranchado, escrito como quem viu um papel e só começou a escrever. Palavras bonitas as vezes faltem e em meio a poética que eu finjo ser meus escritos, você só se depare com mais um &amp;ldquo;mas eu nem sei.&amp;rdquo;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

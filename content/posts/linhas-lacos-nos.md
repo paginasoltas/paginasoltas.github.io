@@ -4,7 +4,7 @@ draft = false
 title = 'Linhas, Laços e Nós'
 +++
 
-### *Linhas 
+### *Linhas* 
 
 O primeiro fio vermelho que eu descobri foi o que se enrolava ao meu nome. O fio de Ariadne. 
 
@@ -28,7 +28,7 @@ E graças ao medo, aprendi como evitar essa dor: Sentir pouco; Amar com cuidado;
 
 Lemas que me protegiam do destino que são as despedidas. E que me privavam do ápice do sentir. E dá total liberdade do amar.
 
-### *Laços
+### *Laços*
 
 Com o tempo, com as perdas que ainda doíam, e com a vida, aprendi outra forma de lidar com as inconstâncias da vida. E essa forma de pensar começou graças a um vídeo que eu vi que dizia:
 
@@ -54,9 +54,9 @@ Mas se a essência do amor, pode ser traduzida nas palavras que se firmam o casa
 Então, acreditar que alguém não possa ser feliz sem sua presença, não seria uma injustiça? Não seria o ego pegando um laço e enforcando o amor, até que ele definhe sem ar?
 E se almas gêmeas são pessoas destinadas a se conhecerem, se amarem, aprenderem juntas e no tempo certo, se deixarem partir, o medo cegante das despedidas, não seria o oposto de amar?
 
-### *Nós 
+### *Nós*
 
-***Todos somos substituíveis, e isso é bom.
+***Todos somos substituíveis, e isso é bom.***
 
 É bom porquê amamos e queremos ser amados. É bom porquê se amamos, queremos ver nossos amores felizes. E se o amor não é egoísta, saber que se não pudermos estar do lado deles, em algum momento, eles terão alguém que estará, nós trará alívio, não dor.
 

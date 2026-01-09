@@ -12,7 +12,7 @@ Uma princesa que de tanto amar e de tanto medo de perder seu amor, entregou um f
 
 Infelizmente, a segunda história que ouvi sobre fios vermelhos não ajudou muito a aliviar minha aflição sobre perdas. Akai Ito: A linha vermelha que liga duas pessoas como almas gêmeas. 
 
-*Pessoas que estão destinadas a se conhecerem, arderem juntas e se deixarem.
+*Pessoas que estão destinadas a se conhecerem, arderem juntas e se deixarem.*
 
 Lembro de ter achado a história absurdamente linda e absurdamente triste. Por que o fio não podia se enrolar e enozar as duas pessoas juntas pelo resto da vida? Por quê o amor também teria que significar deixar partir? Por muito tempo não entendia a importância das despedidas. Quero acreditar que hoje já tenho outra visão sobre tudo isso. Sobre nosso papel temporário na vida das pessoas, sobre fins de ciclos.
 

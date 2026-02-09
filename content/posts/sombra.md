@@ -20,10 +20,10 @@ Lembro q deixava até meus amigos lerem e o consideravam sua “novela semanal�
 ✅️ Montanhas Russas emocionais
 *— e insegurança que manchavam as páginas com lágrimas pouco contidas.*
 
-✅️ E a sombra.
+✅️ E a Sombra.
 *— Aquilo que te persegue durante a vida. Que te agarra em algum momento, e que, se tiver sorte, você consegue distanciar. Mas nunca apagar. Nunca esquecer.*
 
-A minha me seguiu por toda minha vida — que até este momento marcam 21 anos — . Ela se fez presente nos aniversários, comemorações de família, cafés da manhã, almoço e jantar. Minha sombra me abraçava e segurava meu rosto. Muitas sombras, por vezes, nem nome tem... mas a minha tinha.
+A minha, me seguiu por toda minha vida — que até este momento marcam 21 anos — . Ela se fez presente nos aniversários, comemorações de família, cafés da manhã, almoço e jantar. Minha sombra me abraçava e segurava meu rosto. Muitas sombras, por vezes, nem nome tem... mas a minha tinha.
 
 Mesmo que hoje ela já não hospede as paredes do meu quarto, ela ainda me visita em meus sonhos. Minha sombra ainda é a protagonista das lembranças que marcam a minha pele.
 
@@ -31,7 +31,7 @@ Mesmo que hoje ela já não hospede as paredes do meu quarto, ela ainda me visit
 
 Um dia uma sombra entrou no meu quarto, não lembro a primeira vez que aconteceu, só sei que ainda não tinha idade pra usar maquiagem, nem salto alto ou vestidos colados... vestia roupas de boneca — e talvez isso pressagie a história.
 
-Com os olhos fechados eu se quer a vi se aproximar, mas a sombra colada a parede, escorregava pelos cantos, *escurecendo cada parte que tocava, marcando cada curva.*
+Com os olhos fechados, eu se quer a vi se aproximar, mas a sombra, colada a parede, escorregava pelos cantos, *escurecendo cada parte que tocava, marcando cada curva.*
 
 Ela chegou a borda da cama, me olhava como quem olha sua própria salvação. O poço vazio em que despejaria toda sua dor. Quem roubaria para partilhar do seu inferno particular.
 
@@ -54,7 +54,7 @@ E a Realidade, com medo, se negava a entrar.
 
 Ela sentava na janela, sentava no batente da porta e quando chegava a entrar no quarto, se escondia dentro do guarda roupa.
 
-Quando enfim a Realidade, cansada de ouvir o choro de longe, decidiu que era hora de tomar forma. Ela aninhou a Boneca no colo e a levou ao chamego da rede. Balançava cantando canções de ninar querendo faze-la de alguma forma voltar a dormir.
+Quando, enfim, a Realidade, cansada de ouvir o choro de longe, decidiu que era hora de tomar forma, ela aninhou a Boneca no colo e a levou ao chamego da rede. Balançava cantando canções de ninar querendo faze-la, de alguma forma, voltar a dormir.
 
 *Ela já não dormia.*
 
@@ -62,7 +62,7 @@ Mais dias e mais noites. Pesadelos que antes só habitavam o escuro, tomavam esp
 
 E, ainda assim, o pensamento berrava: ***“POR QUE NINGUÉM VEM ME SALVAR?”***
 
-Mas minha sombra me seguiu por muitos e muitos anos na forma de homem. E apenas quando o sangue desceu e o vermelho manchou a cândida pele, é que o nojo decidiu brotar à e a sombra parou de o quarto visitar.
+Mas minha sombra me seguiu por muitos e muitos anos na forma de homem. E apenas quando o sangue desceu e o vermelho manchou a cândida pele, é que o nojo decidiu brotar à face e a sombra parou de o quarto visitar.
 
 Mas eu ainda a vejo. Ainda sinto os calafrios frios que ela impregnou em minhas memórias.
 

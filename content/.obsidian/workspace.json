@@ -76,9 +76,23 @@
               "icon": "lucide-file",
               "title": "criacao"
             }
+          },
+          {
+            "id": "b29fc844c7e2b5a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/sombra.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "sombra"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -240,10 +254,10 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "e9e503324e655c11",
+  "active": "b29fc844c7e2b5a3",
   "lastOpenFiles": [
-    "informações importantes.md",
     "posts/criacao.md",
+    "informações importantes.md",
     "posts/passos.md",
     "posts/sombra.md",
     "archives/_index.md",

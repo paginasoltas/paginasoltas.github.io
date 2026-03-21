@@ -2,7 +2,7 @@
 date = '2026-03-20T15:59:20-03:00'
 draft = false
 title = 'O Que as Estrelas Contam'
-+
++++
 
 ***Tirado diretamente de rascunhos esquecidos em notas...***
 

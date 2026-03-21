@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/sombra.md",
+                "file": "posts/criacao.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "sombra"
+              "title": "criacao"
             }
           }
         ],
@@ -256,13 +256,13 @@
   },
   "active": "b29fc844c7e2b5a3",
   "lastOpenFiles": [
+    "posts/linhas-lacos-nos.md",
     "posts/criacao.md",
+    "posts/sombra.md",
     "informações importantes.md",
     "posts/passos.md",
-    "posts/sombra.md",
     "archives/_index.md",
     "posts/paginas-em-branco.md",
-    "posts/linhas-lacos-nos.md",
     "about.md",
     "posts/Sem título.md",
     "posts/melhor-blog.md",

@@ -2,20 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/posts/mateaprincesa/</loc>
+    <lastmod>2026-10-05T18:06:14-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-10-05T18:06:14-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2026-10-05T18:06:14-03:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/o-que-as-estrelas-contam/</loc>
     <lastmod>2026-03-20T15:59:20-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2026-03-20T15:59:20-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2026-03-20T15:59:20-03:00</lastmod>
+    <loc>http://localhost:1313/posts/passos/</loc>
+    <lastmod>2026-01-22T01:39:02-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/sombra/</loc>
     <lastmod>2026-01-22T01:33:09-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/linhas-la%C3%A7os-e-n%C3%B3s/</loc>
     <lastmod>2026-01-09T16:08:56-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/informa%C3%A7%C3%B5es-importantes/</loc>
+    <lastmod>2026-01-09T15:56:58-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/p%C3%A1ginas-em-branco/</loc>
     <lastmod>2026-01-09T15:56:58-03:00</lastmod>

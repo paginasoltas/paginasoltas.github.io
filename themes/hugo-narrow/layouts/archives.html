@@ -73,7 +73,7 @@
                 <div class="ml-12">
                   {{ $date := time (printf "%s-01" .Key) }}
                   <h3 class="text-foreground text-lg font-semibold">
-                    {{ $date.Format (i18n "time.month_format" | default "2006年01月") }}
+                    {{ $date | time.Format (i18n "time.month_format" | default "2006年01月") }}
                   </h3>
                   <p class="text-muted-foreground text-xs">
                     {{ len .Pages }}

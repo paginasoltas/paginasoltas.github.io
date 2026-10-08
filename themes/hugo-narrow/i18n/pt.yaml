@@ -122,9 +122,9 @@ time:
   year: "ano"
   years: "anos"
   ago: "atrás"
-  date_format: "02 de janeiro de 2006"
-  date_format_short: "02 jan"
-  month_format: "janeiro de 2006"
+  date_format: "02 de January de 2006"
+  date_format_short: "02 Jan"
+  month_format: "January de 2006"
 
 # Archives related
 archives:

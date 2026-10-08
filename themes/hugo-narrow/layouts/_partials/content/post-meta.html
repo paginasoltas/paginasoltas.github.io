@@ -29,7 +29,7 @@
       <div class="flex items-center gap-2">
         {{ partial "features/icon.html" (dict "name" "calendar" "size" "sm" "ariaLabel" (i18n "post.published_on")) }}
         <time datetime="{{ .Date.Format "2006-01-02" }}">
-          {{ .Date.Format (i18n "time.date_format" | default "2006年01月02日") }}
+          {{ .Date | time.Format (i18n "time.date_format" | default "2006年01月02日") }}
         </time>
       </div>
 
@@ -39,7 +39,7 @@
           {{ partial "features/icon.html" (dict "name" "edit" "size" "sm" "ariaLabel" (i18n "post.updated_on")) }}
           <time datetime="{{ .Lastmod.Format "2006-01-02" }}">
             {{ i18n "post.updated_on" | default "更新于" }}
-            {{ .Lastmod.Format (i18n "time.date_format" | default "2006年01月02日") }}
+            {{ .Lastmod | time.Format (i18n "time.date_format" | default "2006年01月02日") }}
           </time>
         </div>
       {{ end }}

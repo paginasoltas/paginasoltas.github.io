@@ -79,9 +79,9 @@ E o separou em dois.
 
 >A Mudança, o estado de constante transformação, o ser de diferentes faces... ele chamou de Mortalha Inqueita... _ele chamou de Princesa._
 
->A Estagnação, a quietude plena e imutável do universo... ele chamou de Silencio Infinito... _ele chamou de Herói._
+>A Estagnação, a quietude plena e imutável do universo... ele chamou de Silêncio Infinito... _ele chamou de Herói._
 
-Depois disso, ele criou um mundo apenas pros dois, uma prisão. Onde ele poderia moldar a história. Mas, para que seu sonho de eliminar a morte se tornasse realidade, ele teve que abrir mão da própria vida.
+Depois disso, ele criou um mundo apenas pros dois, uma prisão. Onde ele poderia moldar a história. Mas, para que seu sonho de eliminar a morte se tornasse realidade, ele teria que abrir mão da própria vida.
 
 Em seu último suspiro, ele deixou um Eco de si mesmo nesse novo mundo. Esse seria o Narrador.
 O Narrador tinha um papel fundamental na história: ele guiaria o Herói para seu destino... matar a Princesa.
@@ -107,7 +107,7 @@ E se soubesse... será que ele acharia que valeu a pena?
   Seu navegador não suporta o elemento de áudio.
 </audio>
 
-Quanto mais o jogo cresce, a história ganha pincelada de novas interpretações e significados... e eu poderia passar horas falando sobre minúcias que para mim tem um peso muito maior do quê aparenta ter... mas, o que eu realmente quero falar neste post não é sobre morte...
+Quanto mais o jogo cresce, a história ganha pinceladas de novas interpretações e significados... e eu poderia passar horas falando sobre minúcias que para mim tem um peso muito maior do quê aparenta ter... mas, o que eu realmente quero falar neste post não é sobre morte...
 
 Afinal, ***essa é uma história de amor.***
 
@@ -132,7 +132,7 @@ Ou seja, todas as possibilidades e perspectivas que nossa história poderia toma
 Conhecemos **“a Bruxa”**, **“a Donzela”**, **“a Fúria ”**....  
 Conhecemos também **“o Apaixonado”**, **“o Paranoico”**, **“o Derrotado”**... – vozes que ficam na nossa cabeça dependendo de que versão da princesa somos obrigados a lidar.
 
-Nosso objetivo passa a ser desbravar sua alma, juntar fragmentos de sua personalidade e devolver a ela. Para que ela possa se sentir inteira novamente.
+Nosso objetivo passa a ser desbravar sua alma, juntar fragmentos de sua personalidade e devolver a ela, para que ela possa se sentir inteira novamente.
 
 E, ao mesmo tempo que você vai conhecendo todas as versões dela, você vai descobrindo as suas... e, afinal, não é sobre isso que se trata o amor? Estar disposto a ver todas as versões que o outro tem a oferecer e ainda assim... escolher continuar?
 
@@ -145,7 +145,7 @@ Ser amado é ser aquele que tem nas mãos o poder de fazer florescer as melhores
 
 O jogo, para mim, trás um reflexo de quem somos nas nossas relações, quem somos com aqueles que escolhemos nos envolver. Mas, também, aquilo que somos na nossa intimidade.
 
-Quando a voz na sua cabeça diz:  
+Quando do paranoico diz:  
 _“Ela é perigosa. Você precisa de uma precaução. De uma forma de se defender.”_  
 Você pega a faca?  
 

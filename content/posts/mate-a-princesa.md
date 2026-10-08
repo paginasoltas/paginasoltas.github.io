@@ -198,7 +198,7 @@ _Será que consegue adivinhar qual foi minha escolha?_
 
 Mas, sinceramente, não acho que o final escolhido seja o que mais importa aqui, e sim, o entendimento do que rege todos eles. O elo que liga o começo e o fim: ***O amor.*** 
 
-***O amor*** *dos dois os unirá novamente como deuses e os dará o poder de criar um novo universo onde reinaram juntos.*
+***O amor*** *dos dois os unirá novamente como deuses e os dará o poder de criar um novo universo onde reinarão juntos.*
 
 ***O amor*** *o dará forças para matá-la, para salvá-la da destruição que ela mesmo anseia em ser. Para guardá-la apenas como uma eterna recordação de quem já foi. E amá-la em lembrança, sozinho, por toda eternidade.*
 

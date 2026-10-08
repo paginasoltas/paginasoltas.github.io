@@ -145,7 +145,7 @@ Ser amado é ser aquele que tem nas mãos o poder de fazer florescer as melhores
 
 O jogo, para mim, trás um reflexo de quem somos nas nossas relações, quem somos com aqueles que escolhemos nos envolver. Mas, também, aquilo que somos na nossa intimidade.
 
-Quando do paranoico diz:  
+Quando a voz do paranoico diz:  
 _“Ela é perigosa. Você precisa de uma precaução. De uma forma de se defender.”_  
 Você pega a faca?  
 

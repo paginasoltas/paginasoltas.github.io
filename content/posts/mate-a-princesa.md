@@ -5,9 +5,9 @@ title = 'Mate a Princesa'
 +++
 ## Prólogo ##
 
-Enquanto eu escrevia, escutava a playlist do próprio jogo e sem perceber, deixei que essas músicas guiassem o tom das minhas palavras e se entrelaçassem a mensagem que eu queria passar. Por isso, deixo elas aqui para que vocês possam imergir na leitura através dos meus sentidos, pra que elas ditem o caminho percorrido pelos meus sentimentos e que, de alguma forma, nós encontremos em uníssono no final.
+	Enquanto eu escrevia, escutava a playlist do próprio jogo e sem perceber, deixei que essas músicas guiassem o tom das minhas palavras e se entrelaçassem a mensagem que eu queria passar. Por isso, deixo elas aqui para que vocês possam imergir na leitura através dos meus sentidos, pra que elas ditem o caminho percorrido pelos meus sentimentos e que, de alguma forma, nós encontremos em uníssono no final.
 
-~ Mas sendo sua experiência, fique a vontade pra ler como sentir que é melhor! ~
+~ *Mas sendo sua experiência, fique a vontade pra ler como sentir que é melhor!* ~
 
 De qualquer forma, aproveite a leitura! <3
 
